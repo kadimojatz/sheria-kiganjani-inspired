@@ -61,9 +61,9 @@ const specialties = [
 ] satisfies Copy[];
 
 const lawyers = [
-  { name: "Adv. Amina Jaffray", specialty: specialties[2], location: "Dar es Salaam", languages: "English / Kiswahili", years: 15, rating: "4.9", reviews: 186, tzs: "120,000", usd: "47", image: aminaPortrait, description: { en: "Probate, inheritance, custody and matrimonial matters handled with discretion.", sw: "Mirathi, urithi, malezi na masuala ya ndoa yanayoshughulikiwa kwa usiri." } },
-  { name: "Adv. Joseph Mwakyusa", specialty: specialties[1], location: "Dar es Salaam", languages: "English / Kiswahili", years: 11, rating: "4.8", reviews: 142, tzs: "95,000", usd: "37", image: josephPortrait, description: { en: "Land transfers, title registration, tenancy and boundary dispute counsel.", sw: "Uhamisho wa ardhi, hati, upangaji na ushauri wa migogoro ya mipaka." } },
-  { name: "Adv. Rehema Mushi", specialty: specialties[3], location: "Arusha", languages: "English / Kiswahili", years: 18, rating: "5.0", reviews: 224, tzs: "150,000", usd: "59", image: rehemaPortrait, description: { en: "Commercial contracts, company formation and regulatory compliance.", sw: "Mikataba ya biashara, uanzishaji wa kampuni na uzingatiaji wa sheria." } },
+  { name: "Adv. Amina Jaffray", specialty: { en: "Family & Probate", sw: "Familia na Mirathi" }, location: "Dar es Salaam", languages: "English / Kiswahili", years: 15, rating: "4.9", reviews: 186, tzs: "120,000", usd: "47", image: aminaPortrait, description: { en: "Probate, inheritance, custody and matrimonial matters handled with discretion.", sw: "Mirathi, urithi, malezi na masuala ya ndoa yanayoshughulikiwa kwa usiri." } },
+  { name: "Adv. Joseph Mwakyusa", specialty: { en: "Land & Property", sw: "Ardhi na Mali" }, location: "Dar es Salaam", languages: "English / Kiswahili", years: 11, rating: "4.8", reviews: 142, tzs: "95,000", usd: "37", image: josephPortrait, description: { en: "Land transfers, title registration, tenancy and boundary dispute counsel.", sw: "Uhamisho wa ardhi, hati, upangaji na ushauri wa migogoro ya mipaka." } },
+  { name: "Adv. Rehema Mushi", specialty: { en: "Business & Corporate", sw: "Biashara na Kampuni" }, location: "Arusha", languages: "English / Kiswahili", years: 18, rating: "5.0", reviews: 224, tzs: "150,000", usd: "59", image: rehemaPortrait, description: { en: "Commercial contracts, company formation and regulatory compliance.", sw: "Mikataba ya biashara, uanzishaji wa kampuni na uzingatiaji wa sheria." } },
 ] as const;
 
 const services = [
